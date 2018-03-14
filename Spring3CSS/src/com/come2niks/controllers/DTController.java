@@ -14,11 +14,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class DTController {
 	
-
 	
 	@RequestMapping(value = "/hello")
 	public ModelAndView Hello()
 	{
+		
+		System.out.println("Coded by Trayambak dhar dwivedi");
 		/* This will load the myDatatable.jsp page */
 		return new ModelAndView("hello");
 		
